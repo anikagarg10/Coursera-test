@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+#heading{
+     font-family:'Grenze Gotisch';
+     margin-top:25px;
+     font-size:45px;
+}
+
+.row{
+     width:100%;
+}
+
+.class{
+     border:2px solid black;
+     margin-top:8px;
+}
+
+@media (min-width:992px){
+     .class{
+          float:left;
+     }
+     #col-1{
+          width:32.5%;
+          margin-right:8px;
+     }
+     #col-2{
+          width:32.5%;
+          margin-right:8px;
+     }
+     #col-3{
+          width:32.5%;
+     }
+}
+
+@media (min-width:768px) and (max-width:991px){
+     .class{
+          float:left;
+     }
+
+     #col-1{
+          width:49%;
+          margin-right:8px;
+     }
+     #col-2{
+          width:49%;
+     }
+     #col-3{
+          width:100%;
+     }
+}
+
+@media (max-width:767px){
+     .class{
+          float:left;
+     }
+
+     #col-1{
+          width:100%;
+     }
+     #col-2{
+          width:100%;
+     }
+     #col-3{
+          width:100%;
+     }
+}
+.name{
+     margin-top:0;
+     float:right;
+     margin-bottom:0px;
+     border-bottom:2px solid black;
+     border-left: 2px solid black;
+     font-family:'Pacifico';
+     padding:4px;
+     padding-bottom:0px;
+     display:block;
+}
+
+.content{
+     margin-top: 32px;
+    margin-bottom: 4px;
+    padding:5px;
+}
